@@ -498,7 +498,7 @@ section {
   padding: 15px 0 0 0;
   margin: 0 0 0 60px;
   font-family: 'Inconsolata', monospace;
-  font-size: 14px;
+  font-size: 16px;
   color: #D5CED9;
 }
 
@@ -529,6 +529,7 @@ section {
   padding: 10px 0;
   margin: 0 0 6px 0;
   text-transform: uppercase;
+  font-size: 14px;
   display: block;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
@@ -549,6 +550,19 @@ section {
   height: 10px;
   transition: .9s;
   background-color: #FFDA4C;
+}
+
+@media (max-width: 768px) {
+  .skills .progress .skill {
+    padding: 10px 0;
+    margin: 0 0 6px 0;
+    text-transform: uppercase;
+    font-size: 12px;
+    display: block;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: #D5CED9;
+  }
 }
 
 /*--------------------------------------------------------------
