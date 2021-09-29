@@ -787,7 +787,17 @@ section {
 }
 
 .contact {
-    padding-bottom: 130px
+    padding-top: 0;
+}
+
+.contact .section-title {
+    color: #0BE8C6;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+.contact .section-title h2{
+    color: #FFDA4C;
 }
 
 .contact .info {
@@ -948,6 +958,15 @@ section {
 
 .contact .php-email-form button[type="submit"]:hover {
     background: #9227e4
+}
+
+.contact .background-element{
+    position: relative;
+}
+.contact .background-element_child{
+    position: absolute;
+    z-index: -1;
+    opacity: 1;
 }
 
 @-webkit-keyframes animate-loading {
