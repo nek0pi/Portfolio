@@ -791,13 +791,16 @@ section {
 }
 
 .contact .section-title {
-    color: #0BE8C6;
-    font-weight: bold;
-    font-size: 1.3em;
+    padding-top: 0.5em;
 }
 
 .contact .section-title h2{
     color: #FFDA4C;
+}
+
+.contact .section-title h5{
+    color: #0BE8C6;
+    font-weight: bold;
 }
 
 .contact .info {
@@ -967,6 +970,11 @@ section {
     position: absolute;
     z-index: -1;
     opacity: 1;
+    -webkit-filter: blur(10px);
+    -moz-filter: blur(10px);
+    -o-filter: blur(10px);
+    -ms-filter: blur(10px);
+    filter: blur(10px);
 }
 
 @-webkit-keyframes animate-loading {
