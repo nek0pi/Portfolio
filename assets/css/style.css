@@ -520,6 +520,24 @@ section {
     background-color: #CA2E55
 }
 
+.skills-content h4{
+    text-align: center;
+    font-weight: bold;
+    color: #37b3ed;
+    font-family: 'Inconsolata', monospace;
+}
+.skills-content li{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+.skills-content i{
+    display: block;
+    text-align: center;
+    font-size: 46px;
+    color: #D5CED9;
+    float: center;
+}
+
 @media (max-width:768px) {
     .skills .progress .skill {
         padding: 10px 0;
