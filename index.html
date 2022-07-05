@@ -59,7 +59,7 @@
     <div class="d-flex flex-column">
 
       <div class="profile">
-        <img src="assets/img/profile_img.webp" alt="" class="img-fluid rounded-circle">
+        <img src="assets/img/profile_img.jpeg" alt="" class="img-fluid rounded-circle">
         <h1 class="text-light"><a href="index.html">Vladyslav</a></h1>
         <h1 class="text-light"><a href="index.html">Hryhorashchenko</a></h1>
         <div class="social-links mt-3 text-center">
@@ -100,21 +100,32 @@
         <span class="yellow">UnityEngine</span>;
       </h2>
       <h2>
-        <h2><span class="violet">public class</span> <span class="yellow">GameDeveloper</span> : <span
-            class="violet">MonoBehaviour</span> {</h2>
+        <br>
+        <h2><span class="violet">public class</span> 
+          <span class="yellow">Vlad_Hryhorashchenko</span> : 
+          <span class="violet">GameDeveloper</span> </h2>
         <h2>
           <br>
-          <h2><span class="violet tab">public PersonalTraits</span>
-            personalTraits;</h2>
+          {
+          <h2><span class="violet tab">public </span> 
+            <span class="yellow">PersonalTraits</span>
+            <span class="blue">PersonalTraits</span>;
+          </h2>
+          <h2>
+            <h2><span class="violet tab">public </span> 
+              <span class="yellow">Experience</span>
+              <span class="blue">Experience</span>;
+            </h2>
           <h2>
             <br>
-            <span class="violet tab">public Code </span>
-            <span class="yellow">Vlad_Hryhorashchenko</span>()
-            {
+            <span class="violet tab">public override </span>
+            <span class="yellow">Code</span>
+            <span class="orange">Work</span>()
+            <h2 class="tab">{</h2>
           </h2>
-          <h2> <span class="yellow doubletab">I_Am</span>(<span class="typed green"
-              data-typed-items='"Game Developer", "Unity developer", "Mobile GameDev"'></span>, <span
-              class="blue">personalTraits</span>);
+          <h2> <span class="violet doubletab">return </span><span class="orange">WorkAs</span>(<span class="typed green"
+              data-typed-items='"Game Developer", "Unity developer", "Mobile GameDev", "3d developer"'></span>, <span
+              class="blue">PersonalTraits</span>);
           </h2>
           <h2 class="tab">}</h2>
           <h2>}</h2>
@@ -142,6 +153,7 @@
 
             <h3 style="height: 55px;">
               <pre><code class="c#">
+                [Serializable]
                 struct PersonalTraits
                 {
               </code></pre>
@@ -149,20 +161,16 @@
             <div class="tab">
               <h3>
                 <pre><code>
-                  int Age = 21;
+
+                  string FullName = "Vladyslav Hryhorashchenko";
                   
                   string Email = "itnek0pi@gmail.com";
                   
-                  string Location = "Odessa, Ukraine";
-                  
-                  List&lt;string> Traits = new List&lt;string>() {"Creative", "Calm,", "Patient", "Reliable", "Self-organized"};
-                  
-                  List&lt;string> GameGenres = new List&lt;string>() {"3D Games", "2D strategy games", "Match3", "Hyper-Casual games", "Local Multiplayer games", "Retro games"};
-                  
-                  string[] Spoken_Languages = {"English", "Japanese", "Russian", "Spanish"};
+                  string Location = "Toronto, Canada";
+                                  
+                  string[] Spoken_Languages = {"English", "Japanese", "Russian", "Ukrainian"};
 
-                  string[] Hobbies = {"Piano", "Guitar", "Learning Languages"};
-                  
+                  string[] Hobbies = {"Piano", "Guitar", "Composing Music" "Learning Languages"};
                 </code></pre>
               </h3>
             </div>
@@ -174,12 +182,12 @@
             <h3>
               <span class="yellow">About myself</span>
             </h3>
-            <p>I'm passionate about Game Development industry
-              and actively looking for opportunities to further
-              improve my expertise. I actively participate in industry related events like
-              game jams and conferences.
-              I'm creative, calm, patient, reliable, very self-organized
-              person and I love challenges.</p>
+            <p>Senior Game Developer with 4+ years of experience in game development and 3d industry. 
+              Led teams up to <strong class="violet">12</strong> people. 
+              Worked on <strong class="red">AAA</strong> titles and delivered to millions of people across different platforms both <strong class="green">mobile, console and desktop</strong>. 
+              Skilled in С#, Unity, Linux, and Python. 
+              Actively participate in industry-related events such as game jams and conferences to keep up with the market. 
+              Looking for opportunities to further improve my expertise.</p>
           </div>
           <div class="col-lg-4" data-aos="fade-right">
             <img src="assets/img/me_cropped.webp" class="img-fluid" alt="">
@@ -206,9 +214,28 @@
         <div class="row">
           <div class="col-lg-7 pt-4 pt-lg-0 content" data-aos="fade-right">
             <div class="container">
+              <h1> <span class="green">Global Game Jam 2022</span> </h1>
+              <h3> <span class="yellow"><b>Prize:</b></span> <strong class="blue">Best commercial product and Best game feel award</strong>.</h3>
+              <h4><b>Chill city</b> - 3d idle clicker game.</h4>
+              <p>This idle clicker game has won hearts of jury as the most playable and the most commercially capable game. 
+                It was developed in a span of two weeks just by me. Soundtrack and SFX were composed by me.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-5 pt-4 pt-lg-0 content" data-aos="fade-left">
+                      <div class="container">
+              <img src="assets/img/portfolio/ChillCity.png" class="img-fluid rounded" alt="Image of a 3d game where you can 
+              see buildings and title chill city">
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-7 pt-4 pt-lg-0 content" data-aos="fade-right">
+            <div class="container">
               <h1> <span class="green">Ubisoft GameJam 2020</span> </h1>
-              <h3> <span class="yellow"><b>Prize:</b></span> <strong>People's favorite</strong>.</h3>
-              <h4>Keep chopping - 3d Local-Multiplayer HyperCasual game.</h4>
+              <h3> <span class="yellow"><b>Prize:</b></span> <strong class="blue">People's favorite</strong>.</h3>
+              <h4><b>Keep chopping</b> - 3d Local-Multiplayer party game.</h4>
               <p>I've competed with the most talented programmers and game designers in the industry, and gained
                 a lot of experience working with the team of professionals. </p>
             </div>
@@ -228,8 +255,8 @@
           <div class="col-lg-7 pt-4 pt-lg-0 content" data-aos="fade-right">
             <div class="container">
               <h1> <span class="green">Global Game Jam 2021 Ukraine</span> </h1>
-              <h3> <span class="yellow"><b>Prize:</b></span> <strong>8th place</strong>.</h3>
-              <h4>The white trail - 2d point and click detective game.</h4>
+              <h3> <span class="yellow"><b>Prize:</b></span> <strong class="blue">8th place</strong>.</h3>
+              <h4><b>The white trail</b> - 2d point and click detective game.</h4>
               <p>I've gathered team of 11 people and been managing the team and doing programming meanwhile. It was a
                 very fun experience! </p>
             </div>
@@ -305,12 +332,14 @@
               <li>Unity 3D</li>
               <li>Git</li>
               <li>iOS, Android, WebGL, Windows, Mac, Linux</li>
+              <li>Unit Tests</li>
               <li>JSON, REST API</li>
               <li>XCode, Android studio</li>
               <li>Google play market and Apple store publishing</li>
               <li>Multithreading</li>
               <li>Python</li>
               <li>HTML, CSS, JS</li>
+              <li>SQL, NoSQL Databases</li>
             </ul>
           </div>
           <div class="col-lg-6" data-aos="fade-up">
@@ -516,8 +545,38 @@
             <div class="resume-item">
               <div class="row">
                 <div class="col-lg-9">
+                  <h4>Software Engineer III</h4>
+                  <h5>July 2022 - Present</h5>
+                  <p><em>Meta</em></p>
+                  <ul>
+                    <li>-- NDA --</li>
+                    <li>-- NDA --</li>
+                    <li>-- NDA --</li>
+                  </ul>
+                </div>
+                <div class="col-lg-3"><img src="assets/img/icons/meta.png" class="img-fluid" alt=""></div>
+              </div>
+            </div>
+            <div class="resume-item">
+              <div class="row">
+                <div class="col-lg-9">
+                  <h4>Senior Unity Developer</h4>
+                  <h5>8 months</h5>
+                  <p><em>IKEA</em></p>
+                  <ul>
+                    <li>Adopted an atypical AR legacy project and rebuilt it from scratch to a top shape, accelerated and optimized solution to work x10 times faster while delivering the result in the shortest time to more than 1 million people around the globe.</li>
+                    <li>Analyzed and Researched 3d real-time areas and prototyped a pipeline for significant size and quality improvement.</li>
+                    <li>Standardized and optimized some of the development workflows.</li>
+                  </ul>
+                </div>
+                <div class="col-lg-3"><img src="assets/img/icons/Ikea-logo.png" class="img-fluid" alt=""></div>
+              </div>
+            </div>
+            <div class="resume-item">
+              <div class="row">
+                <div class="col-lg-9">
                   <h4>Unity Developer</h4>
-                  <h5>August 2021 - Present</h5>
+                  <h5>5 months</h5>
                   <p><em>Red Rift, Inc</em></p>
                   <ul>
                     <li>Built and designed reusable and scalable solutions using ASP.NET and SQL database for backend of mid-core projects.</li>
@@ -577,21 +636,7 @@
                 <div class="col-lg-3"><img src="assets/img/icons/freelance.png" class="img-fluid" alt=""></div>
               </div>
             </div>
-            <div class="resume-item">
-              <div class="row">
-                <div class="col-lg-9">
-                  <h4>Marine Engineer Cadet</h4>
-                  <h5>7 months</h5>
-                  <p><em>Eastern Pacific Shipping</em></p>
-                  <ul>
-                    <li>Assisted with managing and maintenance of Computer Systems onboard.</li>
-                    <li>Worked under stressful conditions and always managed to deliver results on time.</li>
-                    <li>Assisted with the maintenance of Main Engine and auxiliary.</li>
-                  </ul>
-                </div>
-                <div class="col-lg-3"><img src="assets/img/icons/easternpacific.png" class="img-fluid" alt=""></div>
-              </div>
-            </div>
+
           </div>
         </div>
 
@@ -620,7 +665,177 @@
         </div>
 
         <div class="portfolio-container" data-aos="fade-up" data-aos-delay="100">
+
           <div class="row">
+            <div class="col-lg-4 col-md-6 portfolio-item filter-hyper">
+              <div class="portfolio-wrap">
+                <div class="portfolio-links">
+                  <a href="/assets/img/portfolio/nda.webp" data-gall="portfolioGallery" class="venobox"
+                    title="NDA"><i class='bx bx-search-alt'></i></a>
+                      </div>
+                <img src="/assets/img/portfolio/nda.webp" class="img-fluid mobile-gif" alt="">
+                <video width="340" poster="/assets/img/portfolio/nda.webp" preload="auto" autoplay loop
+                  src="/assets/gifs/nda.webp" class="img-fluid gif" alt="">
+  
+              </div>
+              <div class="portfolio-description">
+                <h3><strong class="blue">NDA</strong></h3>
+                <h5>R&D 3D</h5>
+                <p>
+                  Analyzed and Researched 3d real-time areas and prototyped a pipeline for significant size and quality improvement.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-hyper">
+            <div class="portfolio-wrap">
+              <div class="portfolio-links">
+                <a href="/assets/img/portfolio/nda.webp" data-gall="portfolioGallery" class="venobox"
+                  title="NDA"><i class='bx bx-search-alt'></i></a>
+                    </div>
+              <img src="/assets/img/portfolio/nda.webp" class="img-fluid mobile-gif" alt="">
+              <video width="340" poster="/assets/img/portfolio/nda.webp" preload="auto" autoplay loop
+                src="/assets/gifs/nda.webp" class="img-fluid gif" alt="">
+
+            </div>
+            <div class="portfolio-description">
+              <h3><strong class="blue">NDA</strong></h3>
+              <h5>R&D AR Project</h5>
+              <p>
+                Worked as a <strong class="violet">Lead Developer</strong> and <strong class="blue">architect</strong>. Adopted an atypical AR legacy project and rebuilt it from scratch to a top shape, 
+                accelerated and optimized solution to work x10 times faster while delivering the result in the 
+                shortest time to more than 1 million people around the globe.
+              </p>
+            </div>
+          </div>
+        </div>
+
+          <div class="row">
+    
+            <div class="col-lg-4 col-md-6 portfolio-item filter-hyper">
+              <div class="portfolio-wrap">
+                <div class="portfolio-links">
+                  <a href="/assets/img/portfolio/puzzleRoyal.jpeg" data-gall="portfolioGallery" class="venobox"
+                    title="Puzzle Royal"><i class='bx bx-search-alt'></i></a>
+                  <a href="https://puzzleroyale.io/"
+                    target="_blank" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+                <img src="/assets/img/portfolio/puzzleRoyal.jpeg" class="img-fluid mobile-gif" alt="">
+                <video width="340" poster="/assets/img/portfolio/puzzleRoyal.jpeg" preload="auto" autoplay loop
+                  src="" class="img-fluid gif" alt="">
+
+              </div>
+              <div class="portfolio-description">
+                <h3>Puzzle Royal</h3>
+                <h5>NFT Match3</h5>
+                <p>
+                  Worked as a <strong class="violet">Lead Developer</strong> and <strong class="blue">architect</strong>. In this Match 3 game, you'll earn rewards to summon new heroes in your fight to claim the throne.Prove your might on the battlefield by putting together the most strategic teams and making the best matching decisions possible!
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+    
+            <div class="col-lg-4 col-md-6 portfolio-item filter-hyper">
+              <div class="portfolio-wrap">
+                <div class="portfolio-links">
+                  <a href="/assets/img/portfolio/ChillCity.png" data-gall="portfolioGallery" class="venobox"
+                    title="Berserk"><i class='bx bx-search-alt'></i></a>
+                  <a href="https://nek0pi.itch.io/chill-city"
+                    target="_blank" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+                <img src="/assets/img/portfolio/ChillCity.png" class="img-fluid mobile-gif" alt="">
+                <video width="340" poster="/assets/img/portfolio/ChillCity.png" preload="auto" autoplay loop
+                  src="https://youtu.be/RpgX9UA72Qw" class="img-fluid gif" alt="">
+
+              </div>
+              <div class="portfolio-description">
+                <h3>Chill city</h3>
+                <h5>3d Idle clicker</h5>
+                <p>
+                  Worked as a <strong class="red">Sole Developer</strong>. Idle game that helps you relax and build your chill city. Keep balance between resources to progress and build beautiful minimalistic city.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+    
+            <div class="col-lg-4 col-md-6 portfolio-item filter-hyper">
+              <div class="portfolio-wrap">
+                <div class="portfolio-links">
+                  <a href="/assets/img/portfolio/breakpoint.jpeg" data-gall="portfolioGallery" class="venobox"
+                    title="Ghost Recon Breakpoint"><i class='bx bx-search-alt'></i></a>
+                  <a href="https://www.ubisoft.com/en-ca/game/ghost-recon/breakpoint"
+                    target="_blank" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+                <img src="/assets/img/portfolio/breakpoint.jpeg" class="img-fluid mobile-gif" alt="">
+                <video width="340" poster="/assets/img/portfolio/breakpoint.jpeg" preload="auto" autoplay loop
+                  src="" class="img-fluid gif" alt="">
+
+              </div>
+              <div class="portfolio-description">
+                <h3>Ghost Recon Breakpoint</h3>
+                <h5>Online tactical shooter </h5>
+                <p>
+                  Tom Clancy's Ghost Recon Breakpoint is an online-only tactical shooter video game.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+    
+            <div class="col-lg-4 col-md-6 portfolio-item filter-hyper">
+              <div class="portfolio-wrap">
+                <div class="portfolio-links">
+                  <a href="/assets/img/portfolio/hyperscape.jpeg" data-gall="portfolioGallery" class="venobox"
+                    title="Hyperscape"><i class='bx bx-search-alt'></i></a>
+                  <a href="https://youtu.be/w5zZb5Cfcq8"
+                    target="_blank" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+                <img src="/assets/img/portfolio/hyperscape.jpeg" class="img-fluid mobile-gif" alt="">
+                <video width="340" poster="/assets/img/portfolio/hyperscape.jpeg" preload="auto" autoplay loop
+                  src="" class="img-fluid gif" alt="">
+
+              </div>
+              <div class="portfolio-description">
+                <h3>Hyperscape</h3>
+                <h5>First-person shooter battle royale </h5>
+                <p>
+                  The game's main mode shares elements with other battle royale games, where up to 100 players are dropped on to a map that slowly shrinks over time with players seeking to eliminate the competition.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-hyper">
+              <div class="portfolio-wrap">
+                <div class="portfolio-links">
+                  <a href="/assets/img/portfolio/BerserkVulcan.webp" data-gall="portfolioGallery" class="venobox"
+                    title="Berserk"><i class='bx bx-search-alt'></i></a>
+                  <a href="https://appadvice.com/app/berserk-ccg-tcg-game/1566367597image.png"
+                    target="_blank" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+                <img src="/assets/img/portfolio/BerserkVulcan.webp" class="img-fluid mobile-gif" alt="">
+                <video width="340" poster="/assets/img/portfolio/BerserkVulcan.webp" preload="auto" autoplay loop
+                  src="https://youtu.be/RpgX9UA72Qw" class="img-fluid gif" alt="">
+
+              </div>
+              <div class="portfolio-description">
+                <h3>Berserk</h3>
+                <h5>Collectible card game</h5>
+                <p>
+                  Big game project that has NFT etc.
+                </p>
+              </div>
+            </div>
+
             <div class="col-lg-4 col-md-6 portfolio-item filter-hyper">
               <div class="portfolio-wrap">
                 <div class="portfolio-links">
@@ -635,7 +850,7 @@
 
               </div>
               <div class="portfolio-description">
-                <h3>Contrary </h3>
+                <h3>Contrary</h3>
                 <h5>2D adventure platformer</h5>
                 <p>
                   Adventure game where you have to fight common psychological issues and their personifications.
@@ -650,8 +865,6 @@
                 <div class="portfolio-links">
                   <a href="/assets/img/portfolio/nda.webp" data-gall="portfolioGallery" class="venobox"
                     title="Afterlife"><i class='bx bx-search-alt'></i></a>
-                  <a href="https://play.google.com/store/apps/details?id=com.Moonee.Matchmania3d&hl=en&gl=US"
-                    target="_blank" title="More Details"><i class="bx bx-link"></i></a>
                 </div>
                 <img src="/assets/img/portfolio/nda.webp" class="img-fluid mobile-gif" alt="">
                 <video width="340" poster="/assets/img/portfolio/nda.webp" preload="auto" autoplay loop
@@ -850,7 +1063,7 @@
               </div>
             </div>
 
-            <div class="col-lg-4 col-md-6 portfolio-item filter-hyper">
+            <div class="col-lg-4 col-md-6 portfolio-item">
               <div class="portfolio-wrap">
                 <div class="portfolio-links">
                   <a href="assets/img/portfolio/keepchopping.webp" data-gall="portfolioGallery" class="venobox"
@@ -864,7 +1077,7 @@
               </div>
               <div class="portfolio-description">
                 <h3>Keep Chopping</h3>
-                <h5>3D Hyper-Casual Local-Multiplayer</h5>
+                <h5>3D Local-Multiplayer Party game</h5>
                 <p>This game was developed for <strong class="orange">Ubisoft GameJam</strong> in <strong
                     class="green">48 hours</strong> and is a party
                   game for 2-4 players that compete
@@ -902,8 +1115,6 @@
                 <div class="portfolio-links">
                   <a href="assets/img/portfolio/horror_house.webp" data-gall="portfolioGallery" class="venobox"
                     title="Time Hero"><i class='bx bx-search-alt'></i></a>
-                  <a href="https://fedron.itch.io/time-hero" target="_blank" title="More Details"><i
-                      class="bx bx-link"></i></a>
                 </div>
                 <img src="assets/img/portfolio/horror_house.webp" class="img-fluid mobile-gif" alt="">
                 <video width="340" poster="assets/img/portfolio/horror_house.webp" preload="auto" autoplay loop
